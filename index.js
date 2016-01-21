@@ -13,6 +13,8 @@ function Q() /* : Quux */ {
 
 Q().foo
 Q().baz
+Q().push(1)
+Q().push('a')
 Q().quux
 
 module.exports = Q
