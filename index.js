@@ -15,6 +15,6 @@ Q().foo
 Q().baz
 Q().push(1)
 Q().push('a')
-Q().quux
+Q().quux // Error !
 
 module.exports = Q
